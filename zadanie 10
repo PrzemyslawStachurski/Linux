@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "podaj adres ip"
+read i
+sudo iptables -A OUTPUT -d $i -j DROP
